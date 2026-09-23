@@ -10,8 +10,7 @@ while True:
         break
     if num % 2 == 0:
         total += num
-    second = lead
-    lead = num
+    second, lead = lead, num
     
 print(total)
      
